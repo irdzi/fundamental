@@ -9,7 +9,7 @@
                     <h2>List Product</h2>
                 </div>
                 <div class="align-items-end">
-                    <a href=""class=" btn btn-primary">Lihat Profil</a>
+                    <a href="{{ route('users.index') }}"class=" btn btn-primary">Lihat Profil</a>
                     <a href="{{ route('product.create') }}" class="btn btn-dark">Tambah Produk</a>
                     <a href="{{ route('product.index') }}" class="btn btn-secondary">Kembali ke Produk</a>
                 </div>
